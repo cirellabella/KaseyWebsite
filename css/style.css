@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Monserrat' , sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+body{
+    max-width: 1440px;
+    margin: auto;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    text-indent: 1rem;
+    margin: 0;
+}
+
+h2{
+    font-size: 2rem;
+    margin:0;
+}
+
+header{
+    background-color: #E03FD8;
+    text-align: center;
+    padding: 0.5rem;
+
+    /* E03FD8 */
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem;
+    font-weight: 600;
+    margin: auto;
+}
+
+footer{
+    background-color: #b2a7d3;
+    text-align: center;
+    color: white;
+    padding: 0.4rem;
+    font-size: 0.7rem;
+}
+
+.business-name{
+    text-align:center;
+    color:#2d1c5f;
+    position: relative;
+}
+
+.business-name img{
+    min-width: 75%;
+    min-height: 600px;
+    opacity: 0.7;
+}
+
+.business-text{
+    position:absolute;
+    top: 14%;
+    left: 78%;
+    transform: translate(-80%, -40%);
+    text-shadow: 2px 2px;
+}
+
+.business-text p{
+    font-size: 0.9rem;
+}
+
+.occasion{
+    text-align: center;
+    color:#2d1c5f;
+    background-color: #b2a7d3;
+}
+
+.occasion a{
+    color:#2d1c5f;
+    padding: 0.75rem;
+    font-weight: 400;
+    margin: auto;
+}
+
+.options img{
+    max-width: 500px;
+    max-height: 600px;
+    margin:auto;
+    padding: 2%;
+}
+
+.options p{
+    text-align: center;
+    color:#2d1c5f;
+}
+
+.location{
+    background-color: #b2a7d3;
+    color:#2d1c5f;
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+.location-text{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
